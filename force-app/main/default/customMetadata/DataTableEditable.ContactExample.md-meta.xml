@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ContactExample</label>
+    <protected>false</protected>
+    <values>
+        <field>Query__c</field>
+        <value xsi:type="xsd:string">SELECT Id, Name, AccountId,Account.Name, Chances_to_win__c, Amount, CloseDate FROM Opportunity  order by LastModifiedDate  desc</value>
+    </values>
+    <values>
+        <field>columnLabels__c</field>
+        <value xsi:type="xsd:string">Id:hidden
+AccountId:hidden</value>
+    </values>
+    <values>
+        <field>columnReferences__c</field>
+        <value xsi:type="xsd:string">Account.Name</value>
+    </values>
+</CustomMetadata>

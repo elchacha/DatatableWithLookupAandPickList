@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Query__c</fullName>
+    <description>Contains the query to execute. 
+Must contain the Id field if the line is editable
+Can only reference recordId as external parameter for filtering like :
+
+SELECT Name FROM Contact Where AccountId=:recordId</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Query</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

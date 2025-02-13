@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>columnLabels__c</fullName>
+    <description>Must contain as many label as the number of fields in the select separated by a comma caracter
+For non display fields, just add en space caracter
+
+ex : 
+Select Name,Id, Contact.Name from Account
+
+will use 
+
+Label for Account, , Label for Contact ( Id will not be displayed in the columns)</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>columnLabels</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

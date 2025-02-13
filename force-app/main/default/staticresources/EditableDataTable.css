@@ -1,0 +1,109 @@
+.slds-grid .slds-hyphenate {
+    width: 100%
+}
+
+.slds-grid .slds-truncate {
+    width: 100%
+}
+
+.picklist-container{
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+    position: absolute !important;
+    z-index: 10000;
+    }
+
+.picklist-container .slds-dropdown{
+    position: fixed !important;
+    max-height: 120px;
+    max-width: fit-content;
+    overflow: auto;
+}
+.lookup-container{
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+    position: absolute !important;
+    z-index: 10000;
+    
+}
+
+.lookup-container .slds-dropdown{
+    position: fixed !important;
+    max-height: 120px;
+    max-width: fit-content;
+    overflow: auto;
+  
+}
+
+
+
+.cell-Orange {
+  color:#000;
+  background-color:#F79191;
+}
+.cell-Orange:hover{
+  color:#000;
+  background-color:#F79191;
+}
+
+.cell-Orange a:link{
+    color: black;
+}
+
+.cell-Orange a:link:hover {
+    color: black;
+}
+.cell-Orange a:link:active {
+    color: black;
+}
+
+
+.cell-Blue {
+    color:#fff;
+    background-color:blue;
+  }
+  .cell-Blue:hover{
+    color:#000;
+    background-color:blue;
+  }
+
+  .cell-Blue a:link{
+    color: white;
+  }
+
+  .cell-Blue a:link:hover {
+    color: black;
+}
+.cell-Blue a:link:active {
+    color: black;
+}
+
+
+  .cell-Green {
+    color:black;
+    background-color:#AFE7B7 ;
+  }
+  
+.cell-Green:hover{
+    color:black;
+    background-color:#AFE7B7 !important;
+}
+
+.cell-Green a:link{
+  color:black;
+  background-color:#AFE7B7 ;
+}
+
+.cell-Green a:link:hover {
+  color:black;
+  background-color:#AFE7B7 ;
+}
+.cell-Green a:link:active {
+  color:black;
+  background-color:#AFE7B7 ;
+}
+
+
+.slds-table tbody tr:hover {
+  background:antiquewhite !important;
+}

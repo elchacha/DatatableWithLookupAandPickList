@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OpportunityExample</label>
+    <protected>false</protected>
+    <values>
+        <field>Query__c</field>
+        <value xsi:type="xsd:string">SELECT Id,Name,BillingCountry,Sourcing_Stage__c ,Sourcing_Score__c ,Sourcing_In_charge__c,Sourcing_In_charge__r.Name,Sourcing_Close_Date__c ,Sourcing_Next_Steps__c ,Description   FROM account</value>
+    </values>
+    <values>
+        <field>columnLabels__c</field>
+        <value xsi:type="xsd:string">Id:hidden
+Sourcing_In_charge__c:hidden
+Sourcing_In_charge__r.Name:Sourcing In Charge
+Description:Description</value>
+    </values>
+    <values>
+        <field>columnReferences__c</field>
+        <value xsi:type="xsd:string">Sourcing_In_charge__r.Name</value>
+    </values>
+</CustomMetadata>
